@@ -1,0 +1,27 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+}
+
+
+header .header__left p {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+
+header .header__right .header__image {
+  position: relative;
+}
+
+header .header__right .header__image .herculano{
+  border-radius: 0.5rem;
+}
+
+header .header__right .header__image .background {
+  position: absolute;
+  top: -4rem;
+  right: -2.5rem;
+}
